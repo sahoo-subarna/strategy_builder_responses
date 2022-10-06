@@ -2,19 +2,19 @@
 #### Underlying Price at : 17331.8
 
 ## BELOW (17331.8 < 17400)
->{
->
->    "symbol":"NIFTY",
->    "token": 26000,
->    "prediction":"BELOW",
->    "expiryDate":"20221013",
->    "instrumentPriceRange":[
->        17400
->    ]
->}
-
-
-
+```
+{
+    "symbol":"NIFTY",
+    "token": 26000,
+    "prediction":"
+    ",
+    "expiryDate":"20221013",
+    "instrumentPriceRange":[
+        17400
+    ]
+}
+```
+Response :
 
 ```
 {
@@ -534,17 +534,18 @@
 
 
 ## BELOW (17331.8 > 17200)
->{
->
->    "symbol":"NIFTY",
->    "token": 26000,
->    "prediction":"BELOW",
->    "expiryDate":"20221013",
->    "instrumentPriceRange":[
->        17200
->    ]
->}
-
+```
+{
+    "symbol":"NIFTY",
+    "token": 26000,
+    "prediction":"BELOW",
+    "expiryDate":"20221013",
+    "instrumentPriceRange":[
+        17200
+    ]
+}
+```
+Response : 
 ```
 {
     "data": {
@@ -1023,17 +1024,19 @@
 
 
 ## ABOVE (17331.8 < 17400)
->{
->
->    "symbol":"NIFTY",
->    "token": 26000,
->    "prediction":"ABOVE",
->    "expiryDate":"20221013",
->    "instrumentPriceRange":[
->        17400
->    ]
->}
-
+```
+{
+    "symbol":"NIFTY",
+    "token": 26000,
+    "prediction":"ABOVE",
+    "expiryDate":"20221013",
+    "instrumentPriceRange":[
+        17400
+    ]
+}
+```
+Response : 
+```
 {
     "data": {
         "tradingOpportunities": [
@@ -1512,17 +1515,19 @@
 
 
 ## ABOVE (17331.8 > 17200)
->{
->
->    "symbol":"NIFTY",
->    "token": 26000,
->    "prediction":"ABOVE",
->    "expiryDate":"20221013",
->    "instrumentPriceRange":[
->        17200
->    ]
->}
+```
+{
 
+    "symbol":"NIFTY",
+    "token": 26000,
+    "prediction":"ABOVE",
+    "expiryDate":"20221013",
+    "instrumentPriceRange":[
+        17200
+    ]
+}
+```
+Response : 
 ```
 {
     "data": {
@@ -2232,15 +2237,18 @@
 ```
 
 ## BETWEEN ( 17200 <  17331.8 < 17400 )
->{
->    "symbol":"NIFTY",
->    "token": 26000,
->    "prediction":"BETWEEN",
->    "expiryDate":"20221013",
->    "instrumentPriceRange":[
->        17200, 17400
->    ]
->}
+```
+{
+    "symbol":"NIFTY",
+    "token": 26000,
+    "prediction":"BETWEEN",
+    "expiryDate":"20221013",
+    "instrumentPriceRange":[
+        17200, 17400
+    ]
+}
+```
+RESPONSE : 
 
 ```
 {
